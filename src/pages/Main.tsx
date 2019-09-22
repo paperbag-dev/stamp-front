@@ -1,5 +1,5 @@
 import React from 'react';
-import TestComponentOne from '../components/TestComponentOne'
+import TestComponentOne from '../components/TestComponentOne';
 
 export default class Main extends React.Component {
   render() {
