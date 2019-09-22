@@ -5,7 +5,7 @@ export default class Another extends React.Component {
   render() {
     return (
       <div>
-        <h1>main page</h1>
+        <h1>another page</h1>
         <TestComponentTwo />
       </div>
     )
