@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router';
 
-import { Main, Another } from '../pages';
+import { Main, Another } from 'pages';
 
 export default class Layout extends React.Component {
   render() {

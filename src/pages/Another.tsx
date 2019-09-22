@@ -1,5 +1,5 @@
 import React from 'react';
-import TestComponentTwo from '../components/TestComponentTwo'
+import TestComponentTwo from 'components/TestComponentTwo'
 
 export default class Another extends React.Component {
   render() {
