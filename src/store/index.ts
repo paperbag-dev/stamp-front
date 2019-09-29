@@ -1,6 +1,11 @@
 import { combineReducers } from 'redux';
-import testModuleReducer from './testModule/reducer';
+import testModule from './testModule/reducer';
+import { TestModuleState } from './testModule/types';
 
-export default combineReducers({
-  testModuleReducer,
+export interface StoreState {
+    testModule: TestModuleState;
+}
+
+export default combineReducers<StoreState>({
+  testModule,
 });

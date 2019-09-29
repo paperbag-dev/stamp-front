@@ -15,6 +15,15 @@ export default function reducer(state: TestModuleState = initialState, action: {
         numberItem: state.numberItem + action.payload,
       };
     }
+    case Actions.APPEND_LIST_ITEM: {
+      return {
+        ...state,
+        listItems: [
+          ...state.listItems,
+          action.payload,
+        ]
+      };
+    }
     default:
       return state;
   }

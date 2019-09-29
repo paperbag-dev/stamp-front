@@ -1,6 +1,7 @@
 import React from 'react';
 
 import TestComponentOne from 'components/TestComponentOne';
+import ReduxTestComponent from 'components/ReduxTestComponent';
 
 import './style/Main.scss';
 
@@ -15,6 +16,9 @@ export default class Main extends React.Component {
           <div className={"item"}><TestComponentOne /></div>
           <div className={"item"}><TestComponentOne /></div>
           <div className={"item"}><TestComponentOne /></div>
+        </div>
+        <div>
+          <ReduxTestComponent />
         </div>
       </div>
     )
